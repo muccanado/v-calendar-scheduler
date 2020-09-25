@@ -6,6 +6,10 @@
          :style="eventStyles">
        
         <span class="v-cal-event-name">{{ event.displayText }}</span>
+        <br>
+        <span class="v-cal-event-name">{{ event.name }}</span>
+         <br>
+        <span class="v-cal-event-name">{{ event.service }}</span>
     </div>
 </template>
 
