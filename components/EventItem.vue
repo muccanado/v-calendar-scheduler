@@ -1,6 +1,6 @@
 <template>
     <div ref="event_block" class="v-cal-event-item"
-         :title="event.startTime | formatEventTime(use12) + ' - ' + event.displayText"
+         :title="event.startTime | formatEventTime(use12) + ' - s ' + event.displayText"
          :class="eventClasses"
          @click.stop="eventClicked"
          :style="eventStyles">
