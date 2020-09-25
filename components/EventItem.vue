@@ -1,10 +1,10 @@
 <template>
     <div ref="event_block" class="v-cal-event-item"
-         :title="event.startTime | formatEventTime(use12) + ' - s ' + event.displayText"
+         :title="event.displayText"
          :class="eventClasses"
          @click.stop="eventClicked"
          :style="eventStyles">
-        <span class="v-cal-event-time">{{ event.startTime | formatEventTime(use12) }}</span>
+       
         <span class="v-cal-event-name">{{ event.displayText }}</span>
     </div>
 </template>
